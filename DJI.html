@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJI-大疆创新</title>
+<style>
+    table td,table tr{
+        border:1px solid aliceblue;
+    }
+    .b1{
+        width: 800px;
+        background: url("./img/bj.webp");
+        color: rgb(217, 229, 240);
+  }
+    .b2{
+        height: 400px;
+    }
+    .b3{
+        width: 100px;
+    }
+    .b4{
+        width:400px;
+    }
+    .b5{
+        width:150px;
+        size:10px;
+    }
+    .b4{
+    width: 70%;
+    text-align: center;
+    border:1px;
+    width:50%;
+    align:center;
+    color:aliceblue;
+}
+    .pic{
+         width: 100%;
+         align: top;
+    }
+    a1{
+        text-shadow: rgb(24, 72, 169);
+        size: 80px;
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+  </style>
+   
+<script>
+    function loadContent(content) {
+        document.getElementById("ctt").innerHTML = content;
+    }
+</script>
+
+</head>
+<body>
+    <div> <!--将表单盒装,方面整体更改样式-->
+        <table  border="1px" class="b1" >
+            <tr>
+                <td align="center" colspan="4">欢迎来到深圳市大疆创新科技有限公司
+                </td>
+            </tr>
+            <tr class="b2">
+               <td class="b3"> 
+                <table class="b4" >
+                   <nav>
+                    <tr><td><a href="#" onclick="loadContent('<iframe src=intr.html width=100%; height=150px></iframe>')">公司介绍</a></td></tr>
+                    <tr><td><a href="#" onclick="loadContent('<iframe src=product.html width=100%; height=300px></iframe>')">产品结构</a></td></tr>  
+                    <tr><td>公司人事</td></tr> 
+                    <tr><td>产品展示</td></tr>
+                    <tr><td>效果展示</td></tr> 
+                  </nav>
+                </table>    
+                </td>
+
+                <td class="b4" id="ctt">
+                    <img src="./img./dji.jpg" class="pic">
+                    <h1>游万物之界,御万物之律</h1>
+                    
+ 
+
+                </td>
+                <td class="b5">大疆致力于成为持续推动人类文明进步的科技公司。
+                    我们以“让生命更丰富”为使命，致力于将科技与文明的力量和每
+                    个人的生命紧密相连。
+                    大疆倡导“秉持公心、反思自省、求真品诚、激极尽志、积极
+                    正向、知行合一”的价值观，鼓励每一个人在做事的过程中探索自我、磨砺自我、收获成长。
+                    大疆将持续创造更好的高科技产品，不断培养和成就德才兼备的
+                    人才，为志同道合的伙伴们打造实现梦想、超越自我的精神家园，为推动人类文明的进步贡献力量。</td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center" >联系方式:1332171988@qq.com
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
